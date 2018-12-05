@@ -20,6 +20,10 @@ body{
 	background-image: url("./images/IndexBackground1.png");
 }
 
+table {
+	width: 100%;
+}
+
 .btnHelp {
 	-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
