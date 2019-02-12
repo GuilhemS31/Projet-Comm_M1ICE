@@ -1,6 +1,6 @@
 function Case() {
-    this.droite = null
     this.gauche = null
+    this.droite = null
     this.haut = null
     this.bas = null
 
@@ -8,7 +8,7 @@ function Case() {
     this.document = null
   }
 
-  function Case(droite, gauche, haut, bas, font) {
+  function Case(gauche, droite, haut, bas, font) {
     this.droite = droite
     this.gauche = gauche
     this.haut = haut
@@ -18,7 +18,7 @@ function Case() {
     this.document = null
   }
 
-  function Case(droite, gauche, haut, bas, font, document) {
+  function Case(gauche, droite, haut, bas, font, document) {
     this.droite = droite
     this.gauche = gauche
     this.haut = haut
