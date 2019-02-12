@@ -7,27 +7,16 @@
 	<link rel="icon" type="image/png" href="./src/images/car.png" />
 	<script type="text/javascript" src="./src/js/home.js"></script>
 </head>
+<header>
+	<img src="./src/images/Logo.png" class="logo"/>
+	<button onclick="window.open('./src/help.html')" type="button" class="btnHelp">?</button>
+</header>
 <body>
-	<table class="fullPageTable">
-		<tr>
-			<td>
-			</td>
-			<td>
-				<img src="./src/images/Logo.png" />
-			</td>
-			<td style="padding-right: 10%">
-				<button onclick="window.open('./src/help.html')" type="button" class="btnHelp">?</button>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<div class="game">
-					<img src="./src/images/play.png" />
-				</div>
-			</td>
-		</tr>
-		<tr>
-		</tr>
-	</table>
+	<div id="gameMenu">
+		<input type="image" src="./src/images/play.png" class="btnPlay" onclick="SwapDivsWithClick('gameMenu', 'gameWindow')"/>
+	</div>
+	<div id="gameWindow"">
+		<p>Window</p>
+	</div>
 </body>
 </html>
