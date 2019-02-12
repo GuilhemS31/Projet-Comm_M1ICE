@@ -1,6 +1,7 @@
 function Conducteur(){
-    this.cUn = null
-    this.cDeux = null
-    this.cTrois = null
+    this.cCaseGauche = null
+    this.cCaseHaut = null
+    this.cCaseDroite = null
+    this.cFrom = null
 }
 
