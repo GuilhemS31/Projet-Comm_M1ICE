@@ -14,3 +14,27 @@ function SwapDivsWithClick(div1, div2)
 	
 }
 
+function UpdateCurrentLocation(tdID){
+	var childDivs = document.getElementById('map').getElementsByTagName('td');
+
+	for( i=0; i< childDivs.length; i++ ){
+		var childDiv = childDivs[i];
+		childDiv.style.backgroundColor  = "transparent";
+	}	
+	SetTileAsCurrentLocation(tdID);
+}
+
+function SetTileAsCurrentLocation(tdID){
+	
+	console.log("Hello");
+	
+	td = document.getElementById(tdID);
+	color = td.style.backgroundColor ;
+	if (color === "red"){
+        td.style.backgroundColor  = "transparent";
+	}
+    else {
+		console.log("Me red");
+        td.style.backgroundColor  = "red";
+	}
+}

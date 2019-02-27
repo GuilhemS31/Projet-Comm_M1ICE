@@ -11,7 +11,7 @@
 </head>
 <header>
 	<img src="./src/images/Logo.png" class="logo"/>
-	<table>
+	<table id="map">
 		<tr>
 			<td id="01.01"></td>			
 			<td id="02.01"></td>
@@ -86,7 +86,7 @@
 			<td id="34.02"></td>
 			<td id="35.02"></td>
 		</tr>
-		<tr
+		<tr>
 			<td id="01.03"></td>			
 			<td id="02.03"></td>
 			<td id="03.03"></td>
@@ -905,7 +905,10 @@
 </header>
 <body>
 	<div id="gameMenu">
-		<input type="image" src="./src/images/play.png" class="btnPlay" onclick="SwapDivsWithClick('gameMenu', 'gameWindow')"/>
+		<!-- <input type="image" src="./src/images/play.png" class="btnPlay" onclick="SwapDivsWithClick('gameMenu', 'gameWindow')"/> -->
+		
+		
+		<input type="image" src="./src/images/play.png" class="btnPlay" onclick="UpdateCurrentLocation('05.05')"/>
 	</div>
 	<div id="gameWindow">
 		<p>Window</p>
