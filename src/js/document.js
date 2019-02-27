@@ -2,21 +2,25 @@ function getDocument(doc){
   path = '/data'
   target = doc.substr(0,1)
   elmnt = doc.substr(1)
-
+  searchElmnt = false
   switch (expr) {
     case 'B':
       path+= '/Guilhem-'
+      searchElmnt = true
       break;
     case 'R':
       path+= '/Titouan-'
+      searchElmnt = true
       break;
     case 'B':
       path+= '/Arnaud-'
+      searchElmnt = true
       break;
     default:
       window.alert('Erreur, Document introuvable');
   }
 
+if(searchElmnt){
   switch (elmnt){
     case '1':
       path+= 'CV.pdf'
@@ -54,5 +58,9 @@ function getDocument(doc){
     default:
       window.alert('Erreur, Document introuvable');
   }
-  return path;
+
+  return path
+}
+
+  return '';
 }
