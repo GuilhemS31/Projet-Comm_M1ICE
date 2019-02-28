@@ -29,7 +29,7 @@ if(searchElmnt){
       path+= 'Attentes.pdf'
       break;
     case '3':
-      path+= 'Compétences_professionelles.pdf'
+      path+= 'Competences_professionelles.pdf'
       break;
     case '4':
       path+= 'Traits_personalitee.pdf'
@@ -41,7 +41,7 @@ if(searchElmnt){
       path+= 'Itineraire_etudes-pro.pdf'
       break;
     case '7':
-      path+= 'Explication_accident_parcours.pdf'
+      path+= 'Accident_parcours.pdf'
       break;
     case '8':
       path+= 'Influence_choix.pdf'

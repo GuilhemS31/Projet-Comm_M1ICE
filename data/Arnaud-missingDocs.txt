@@ -1,10 +1,10 @@
 1) CV.pdf
 2) Attentes.pdf
-3) Compétences_professionelles.pdf
+3) Competences_professionelles.pdf
 4) Traits_personalitee.pdf
 5) Centres_interets.pdf
 6) Itineraire_etudes-pro.pdf
-7) Explication_accident_parcours.pdf
+7) Accident_parcours.pdf
 8) Influence_choix.pdf
 9) Contraintes_personelles.pdf
 10) Informations_complementaire.pdf (Linkedin,etc...)
