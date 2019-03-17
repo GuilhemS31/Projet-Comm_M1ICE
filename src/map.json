@@ -32,8 +32,6 @@ idcase;idgauche;iddroite;idhaut;idbas;biome;doc
 "05.09";null;null;"05.08";"05.10";mer;null;
 "05.10";null;"06.10";"05.09";null;mer;null;
 "06.10";"05.10";"07.10";null;null;mer;null;
-
-
 "10.08";"09.08";null;"10.07";"10.09";camp;null;
 "10.07";null;null;"10.06";"10.08";camp;null;
 "10.06";null;"11.06";null;"10.07";camp;null;
@@ -191,8 +189,6 @@ idcase;idgauche;iddroite;idhaut;idbas;biome;doc
 "22.07";null;"23.07";null;"22.08";camp;null;
 "23.07";"22.07";"24.07";null;null;camp;null;
 "24.07";"23.07";"25.07";null;null;camp;null;
-
-
 "04.17";null;null;"04.16";"04.18";neige;"B9";
 "04.18";"03.18";null;"04.17";null;neige;null;
 "03.18";null;"04.18";null;"03.19";neige;null;
@@ -233,7 +229,6 @@ idcase;idgauche;iddroite;idhaut;idbas;biome;doc
 "09.19";"08.19";null;"09.18";null;neige;null;
 "06.18";null;"07.18";null;"06.19";neige;null;
 "07.18";"06.18";null;"07.17";null;neige;null;
-
 "11.10";"10.10";null;"11.09";null;foret;null;
 "11.09";null;"12.09";null;"11.10";foret;null;
 "12.09";"11.09";"13.09";null;null;foret;null;
@@ -283,7 +278,6 @@ idcase;idgauche;iddroite;idhaut;idbas;biome;doc
 "16.10";"15.10";"17.10";null;null;foret;"B2";
 "17.10";"16.10";null;"17.09";null;foret;null;
 "17.09";null;"18.09";null;"17.10";foret;null;
-
 "29.14";null;"30.14";null;"29.15";ville;null;
 "30.14";"29.14";null;"30.13";null;ville;null;
 "30.13";null;"31.13";"30.12";"30.14";ville;null;

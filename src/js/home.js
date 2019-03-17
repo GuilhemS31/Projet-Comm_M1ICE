@@ -12,5 +12,28 @@ function SwapDivsWithClick(div1, div2)
 	const data = myJson();
 	console.log(data);
 	
+	const depart = findCase("34.05")
+	console.log(depart);
+	
 }
 
+function findCase(id){
+	const datas = myJson()
+	const test =null ;
+
+	var test2 = datas.forEach(elem => {
+		//console.log(elem.idcase);
+		
+		if (elem.idcase == id){
+			console.log("id",id);
+			console.log("elem",elem);
+			
+			test = elem;
+		};
+		return test;
+
+	});
+	console.log(test2);
+	return test2;
+	
+}
