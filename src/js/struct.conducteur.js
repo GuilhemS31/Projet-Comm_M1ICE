@@ -1,35 +1,34 @@
 function Conducteur(){
     this.cCaseGauche = null
-    this.cCaseHaut = null
+    this.cCaseFace = null
     this.cCaseDroite = null
     this.cFrom = null
 }
 
 function arriveDuBas(gauche, droite, haut, bas){
     this.cCaseGauche = gauche
-    this.cCaseHaut = haut
+    this.cCaseFace = haut
     this.cCaseDroite = droite
     this.cFrom = bas
 }
 
 function arriveDeGauche(gauche, droite, haut, bas){
     this.cCaseGauche = haut
-    this.cCaseHaut = droite
+    this.cCaseFace = droite
     this.cCaseDroite = bas
     this.cFrom = gauche
 }
 
 function arriveDeDroite(gauche, droite, haut, bas){
     this.cCaseGauche = bas
-    this.cCaseHaut = gauche
+    this.cCaseFace = gauche
     this.cCaseDroite = haut
     this.cFrom = droite
 }
 
 function arriveDuHaut(gauche, droite, haut, bas){
     this.cCaseGauche = droite
-    this.cCaseHaut = bas
+    this.cCaseFace = bas
     this.cCaseDroite = gauche
     this.cFrom = haut
 }
-

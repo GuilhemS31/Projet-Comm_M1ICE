@@ -85,3 +85,50 @@ function getBiome(biome){
   }
 
 }
+
+
+function getRoad(conducteur){
+  path = '/src/images/routes/'
+  error = true
+  if (conducteur.cCaseGauche != null && conducteur.cCaseDroite != null &&  conducteur.cCaseFace != null){
+    path+= "squareIntersection.png"
+    error = false
+    //avancer
+  }
+  else if (conducteur.cCaseGauche == null && conducteur.cCaseDroite != null &&  conducteur.cCaseFace != null){
+    path+= "straitghRight.png"
+    error = false
+    //avancer
+  }
+  else if (conducteur.cCaseGauche != null && conducteur.cCaseDroite == null &&  conducteur.cCaseFace != null){
+    path+= "straitghLeft.png"
+    error = false
+    //avancer
+  }
+  else if (conducteur.cCaseGauche != null && conducteur.cCaseDroite != null &&  conducteur.cCaseFace == null){
+    path+= "intersection.png"
+    error = false
+    //avancer
+  }
+  else if (conducteur.cCaseGauche != null && conducteur.cCaseDroite == null &&  conducteur.cCaseFace == null){
+    path+= "left.png"
+    error = false
+    //avancer
+  }
+  else if (conducteur.cCaseGauche == null && conducteur.cCaseDroite != null &&  conducteur.cCaseFace == null){
+    path+= "right.png"
+    error = false
+    //avancer
+  }
+  else if (conducteur.cCaseGauche == null && conducteur.cCaseDroite == null &&  conducteur.cCaseFace != null){
+    path+= "straitgh.png"
+    error = false
+    //avancer
+  }
+
+  if (error){
+    //alert mauvaise direction
+    //ramener case début game
+  }
+  return path
+}
