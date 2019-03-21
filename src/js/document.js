@@ -2,21 +2,25 @@ function getDocument(doc){
   path = '/data'
   target = doc.substr(0,1)
   elmnt = doc.substr(1)
-
+  searchElmnt = false
   switch (expr) {
     case 'B':
       path+= '/Guilhem-'
+      searchElmnt = true
       break;
     case 'R':
       path+= '/Titouan-'
+      searchElmnt = true
       break;
     case 'B':
       path+= '/Arnaud-'
+      searchElmnt = true
       break;
     default:
       window.alert('Erreur, Document introuvable');
   }
 
+if(searchElmnt){
   switch (elmnt){
     case '1':
       path+= 'CV.pdf'
@@ -25,7 +29,7 @@ function getDocument(doc){
       path+= 'Attentes.pdf'
       break;
     case '3':
-      path+= 'Compétences_professionelles.pdf'
+      path+= 'Competences_professionelles.pdf'
       break;
     case '4':
       path+= 'Traits_personalitee.pdf'
@@ -37,7 +41,7 @@ function getDocument(doc){
       path+= 'Itineraire_etudes-pro.pdf'
       break;
     case '7':
-      path+= 'Explication_accident_parcours.pdf'
+      path+= 'Accident_parcours.pdf'
       break;
     case '8':
       path+= 'Influence_choix.pdf'
@@ -54,5 +58,9 @@ function getDocument(doc){
     default:
       window.alert('Erreur, Document introuvable');
   }
-  return path;
+
+  return path
+}
+
+  return '';
 }
