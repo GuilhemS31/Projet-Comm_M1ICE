@@ -58,7 +58,7 @@ header{
 .logo{
 	display: block;
     margin-left: auto;
-    margin-right: auto;	
+    margin-right: auto;
 }
 
 .btnPlay{
@@ -131,7 +131,7 @@ header{
 }
 
 #gameWindow{
-	display: none;
+	margin : 50px;
 	color: white;
 	background-color: black;
 	border:groove 7px #ff0000;
