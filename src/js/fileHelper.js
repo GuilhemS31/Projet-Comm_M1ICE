@@ -12,7 +12,7 @@ function getDocument(doc){
       path+= '/Titouan-'
       searchElmnt = true
       break;
-    case 'B':
+    case 'N':
       path+= '/Arnaud-'
       searchElmnt = true
       break;
@@ -63,4 +63,25 @@ if(searchElmnt){
 }
 
   return '';
+}
+
+function getBiome(biome){
+  path = '/src/images/biomes/'
+  switch (biome){
+    case 'mer':
+      path += 'plages.png'
+      break;
+    case 'neige':
+      path += 'montagne.jpg'
+      break;
+    case 'foret':
+      path += 'foret.jpg'
+      break;
+    case 'ville':
+      path += 'ville.jpg'
+      break;
+    default:
+      path += 'campagne.jpg'
+  }
+
 }
