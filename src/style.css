@@ -31,10 +31,14 @@ td{
 	height: 4px;
 }
 
+html{
+	height: 100%;
+}
 body{
 	background-image: url("./images/IndexBackground1.png");
 	margin-left: 5%;
 	margin-right: 5%;
+	height: 100%;
 }
 
 h1{
@@ -132,6 +136,7 @@ header{
 
 #gameWindow{
 	margin : 50px;
+	height: 90%;
 	color: white;
 	background-color: black;
 	border:groove 7px #ff0000;
