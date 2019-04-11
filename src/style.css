@@ -7,7 +7,7 @@
   background-image: linear-gradient(to right, red , yellow);
 }
 
-table{
+.mapTable{
 	background-image: url("./images/MapNoLegende.png");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -136,6 +136,7 @@ header{
 
 #gameWindow{
 	margin : 50px;
+	padding: 10%;
 	height: 90%;
 	color: white;
 	background-color: black;
@@ -152,4 +153,26 @@ header{
 	border-top-right-radius:16px;
 	border-bottom-left-radius:16px;
 	border-bottom-right-radius:16px;
+}
+
+#gameTable{
+	display = inline;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mapDiv{
+	display = none;
+	width:50%;
+	height:100%;
+	float:left;
+	background-color: green;
+}
+
+#gameDiv{
+	display = none;
+	width:50%;
+	height:100%;
+	float:right;
+	background-color: blue;
 }
