@@ -1,8 +1,43 @@
+@font-face {
+  font-family: malvie;
+  src: url("./Malvie.otf");
+}
+
 .roundedImage{
     overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    border-radius:50px;
-    width:90px;
-    height:90px;
+    -webkit-border-radius:70%;
+    -moz-border-radius:70%;
+    border-radius:70%;
+    border: solid 5px;
+    border-color:#cc0000;
+    width:50%;
+    height:50%;
+}
+
+html{
+  background-image: url("./background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+table{
+  display : block;
+  width : 100%;
+}
+
+td{
+  text-align: center;
+  width : 33%;
+  font-size: 30px;
+  font-family : malvie;
+}
+
+a, a.visited, a.hover{
+  color : #cc0000;
+  font-family : malvie;
+  text-align: center;
+  font-size: 30px;
 }
